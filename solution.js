@@ -3,12 +3,12 @@ let parkWalk = "I can walk in the park all day";
 console.log(parkWalk.substring(17, 22));
 
 // 2. Declare a variable with the value of "Hello World". Covert the value to upper case and print the converted value to the console.
-let helloWord = "Hello World";
-console.log(helloWord.toUpperCase());
+let hello = "Hello World";
+console.log(hello.toUpperCase());
 
 // 3. Declare another variable with the value of "Earthlings". Convert the value to lower case and print the converted value to the console.
-let earthlings = "Earthlings";
-console.log(earthlings.toLowerCase());
+let species = "Earthlings";
+console.log(species.toLowerCase());
 
 // 4. Declare a variable with the value "JavaScript". Print the the characters "aSc" to the console using the substring() method.
 let java = "JavaScript";
