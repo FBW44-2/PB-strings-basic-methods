@@ -7,7 +7,7 @@ let hello = "Hello World";
 console.log(hello.toUpperCase());
 
 // 3. Declare another variable with the value of "Earthlings". Convert the value to lower case and print the converted value to the console.
-let species = "Earthlings";
+let species = "Hello Earthling";
 console.log(species.toLowerCase());
 
 // 4. Declare a variable with the value "JavaScript". Print the the characters "aSc" to the console using the substring() method.
