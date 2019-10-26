@@ -17,8 +17,8 @@ console.log(midChars);
 
 // 5. Check if the sentence "nice shoes" contains the letter l. 
 const niceShoesStr = "nice shoes";
-console.log(niceShoesStr.match("l"));
-console.log(niceShoesStr.match("n"));
+console.log(niceShoesStr.includes("l"));
+console.log(niceShoesStr.includes("n"));
 
 // 6. Create a new string from a given string with the first character of the given string added at the front and back. eg. of output: JavaScript => JJavaScriptJ. 
 const fruityStr = "Bananas";
