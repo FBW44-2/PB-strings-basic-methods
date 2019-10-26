@@ -34,8 +34,8 @@ console.log(`${lastThreeChars}${scritcherStr}${lastThreeChars}`);
 
 // 8. Create a variable and assign a string value to it. Then, convert the value to upper case and print the converted value to the console and check whether it includes "Java".
 const aussieStr = "Oi! Oi! Oi!";
-console.log(aussieStr.includes("Java"));
 console.log(aussieStr.toUpperCase());
+console.log(aussieStr.includes("Java"));
 
 // 9. Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 1. eg. of output JavaScript => tavaScripJ
 const boogieNightsStr = "BoogieWoogie";
