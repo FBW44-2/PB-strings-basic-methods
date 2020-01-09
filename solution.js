@@ -32,26 +32,21 @@ const lastThreeChars = scritcherStr.substring(scritcherStr.length - 3);
 console.log(lastThreeChars + scritcherStr + lastThreeChars);
 console.log(`${lastThreeChars}${scritcherStr}${lastThreeChars}`);
 
-// 8. Create a variable and assign a string value to it. Then, convert the value to upper case and print the converted value to the console and check whether it includes "Java".
-const aussieStr = "Oi! Oi! Oi!";
-console.log(aussieStr.toUpperCase());
-console.log(aussieStr.includes("Java"));
-
-// 9. Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 1. eg. of output JavaScript => tavaScripJ
+// 8. Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 1. eg. of output JavaScript => tavaScripJ
 const boogieNightsStr = "BoogieWoogie";
 const firstLetter = boogieNightsStr[0];
 const lastLetter = boogieNightsStr[boogieNightsStr.length - 1];
 const remainderString = boogieNightsStr.substring(1, boogieNightsStr.length - 1);
 console.log(lastLetter + remainderString + firstLetter);
 
-// 10. Create 3 different variables about yourself using strings as values e.g. let firstName = "Maria". Print the sentence to the console using string interpolation e.g. "My name is Maria. I live in Berlin and I am a teacher". 
+// 9. Create 3 different variables about yourself using strings as values e.g. let firstName = "Maria". Print the sentence to the console using string interpolation e.g. "My name is Maria. I live in Berlin and I am a teacher". 
 const firstName = "Lola";
 const location = "Copa-Copacabana";
 const job = "showgirl";
 
 console.log(`Her name was ${firstName}. She was a ${job} ... at the ${location}`);
 
-//11. Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
+//10. Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
 const foxStr = "the quick brown fox";
 const firstCharacter = foxStr[0].toUpperCase();
 const remainderStr = foxStr.slice(1);
