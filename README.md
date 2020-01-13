@@ -4,6 +4,8 @@
 
 **NB: declare each variable with a unique name so that you can run the exercises below in a single script without SyntaxErrors. If you are not sure what we mean by that, try first running your script with multiple variables of the same name and see what happens. We'll wait.**
 
+**NB: declare each variable with a unique name so that you can run the exercises below in a single script without SyntaxErrors. If you are not sure what we mean by that, try first running your script with multiple variables of the same name and see what happens. We'll wait.**
+
 1. Declare a variable with the value of "I can walk in the park all day!". Print the word "park" to the console.
 
 2. Declare a variable with the value of "Hello World". Covert the value to upper case and print the converted value to the console.
